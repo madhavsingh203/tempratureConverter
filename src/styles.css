@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(49, 47, 47);
+}
+
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(151, 179, 211);
+}
+
+.input-container,
+.output-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  margin-right: 10px;
+}
